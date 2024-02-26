@@ -1,2 +1,24 @@
-# NetEar
-Network Device Monitor with Sound Alerts
+# NetEar: Network Device Monitor with Sound Alerts
+
+NetEar is a simple Python script that monitors devices on your local network and plays different sounds when a device gets connected or disconnected. It uses ARP (Address Resolution Protocol) to detect devices and alerts the user in real-time.
+
+## Features
+
+- Scans the local network for connected devices using ARP.
+- Plays a sound when a new device is detected.
+- Plays a different sound when a device is disconnected.
+- Customizable scan interval.
+
+## Requirements
+
+- Python 3.x
+- macOS (for sound alerts)
+- Required Python packages (install using `pip install -r requirements.txt`):
+- scapy
+
+## Usage
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/mo-shakib/NetEar.git
