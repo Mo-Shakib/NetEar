@@ -22,3 +22,30 @@ NetEar is a simple Python script that monitors devices on your local network and
 
    ```bash
    git clone https://github.com/mo-shakib/NetEar.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd NetEar
+   ```
+3. Install the required packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Run the script:
+
+   ```bash
+   python netear.py
+   Press Ctrl + C to stop the script.
+   ```
+
+5. Configuration
+
+   You can adjust the scan interval in the script (time.sleep()).
+   You can change the sound files for connected and disconnected devices by replacing "connected_sound.mp3" and "disconnected_sound.mp3" respectively.
+
+## Contributing
+Contributions are welcome! If you have suggestions, feature requests, or found a bug, please open an issue or submit a pull request.
+
