@@ -12,7 +12,6 @@ NetEar is a simple Python script that monitors devices on your local network and
 ## Requirements
 
 - Python 3.x
-- macOS (for sound alerts)
 - Required Python packages (install using `pip install -r requirements.txt`):
 - scapy
 
